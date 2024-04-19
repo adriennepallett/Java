@@ -25,3 +25,4 @@ N02076445_2.java ------------------- Stable ✅
 AdrienneKT2ET.java ----------------- Stable ✅
 TempConversion --------------------- Unstable ⛔️ See Projects
 Refactoring.java ------------------- Stable ✅
+Lotto.java ------------------------- Stable ✅
