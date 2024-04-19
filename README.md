@@ -19,13 +19,24 @@ PROGRAM LIST AND STATUS
 *********************************
 
 Algorithm
+
 pDataAdrienne.java ----------------- Stable ✅
+
 NestedRows.java -------------------- Unstable ⛔️ See Projects
+
 SpeedingFines.java ----------------- Stable ✅
+
 N02076445_2.java ------------------- Stable ✅
+
 AdrienneKT2ET.java ----------------- Stable ✅
+
 TempConversion --------------------- Unstable ⛔️ See Projects
+
 Refactoring.java ------------------- Stable ✅
+
 Lotto.java ------------------------- Stable ✅
+
 Int Array Classes ------------------ Stable ✅
+
 Programmer ------------------------- Unstable ⛔️ See Projects
+
