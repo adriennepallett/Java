@@ -1,0 +1,22 @@
+Input: 2 Strings
+    String 1: 
+    String 2: 
+
+Process: Determine longest common substring
+    1)	Assign placement values to all letters in String 1 and String 2. 
+    2)	Create a temporary sub-string holder to catch matching case values. 
+    3)	From left to right, evaluate placement value ‘1’ in both strings. 
+        a.	If the values match, add the letter to the temporary sub-string.
+        b.	If the values do not match, do not add the letter to the temporary sub-string.  
+    4)	Evaluate the next placement value of both strings. 
+        a.	If the value of the position matches in both strings, add the letter to the temporary substring. 
+        b.	If the value of the next position does not match: 
+            i.	Create a new temporary substring holder called Substring Holder +1
+            ii.	Move values of the temporary substring to the new substring holder created in Step 4bi.
+    5)	Repeat Step 4 until all placement values have been evaluated. 
+    6)	Consider all Substring Holders that were created in Step 4bi.
+        a.	Count the number of values in each holder. 
+        b.	The holder with the largest number of substring values should return the list of values as Output.
+        c.	If the substring holders only has ‘1’ or equal values, return a phrase that displays that there is no largest substring. 
+
+Output: Result of Step 6b or 6c

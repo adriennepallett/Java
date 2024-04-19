@@ -18,6 +18,7 @@ Feel free to explore the projects, learn from the code, and contribute to the Ja
 PROGRAM LIST AND STATUS
 *********************************
 
+Algorithm
 pDataAdrienne.java ----------------- Stable ✅
 NestedRows.java -------------------- Unstable ⛔️ See Projects
 SpeedingFines.java ----------------- Stable ✅
