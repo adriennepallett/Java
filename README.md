@@ -44,3 +44,4 @@ Footwear --------------------------- Stable ✅
 
 Airline ---------------------------- Unstable ⛔️ See Projects
 
+Password --------------------------- Stable ✅ See Separate README

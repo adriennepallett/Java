@@ -1,0 +1,39 @@
+
+PASSw0rd! - Password is not accepted
+	Your password should only contain EXACTLY 3 upper-case letters
+
+pasWOR!1 - Password is not accepted
+	Your password does not contain 9 characters.
+
+pssWRD23! - Password is not accepted
+	Your password should only contain EXACTLY 1 digit
+
+PASSWORD1 - Password is not accepted
+	Your password should only contain EXACTLY 3 upper-case letters
+	Your password should only contain EXACTLY 3 lower-case letters
+	Your password should contain AT LEAST 1 special character
+
+password! - Password is not accepted
+	Your password should only contain EXACTLY 3 upper-case letters
+	Your password should only contain EXACTLY 3 lower-case letters
+	Your password should only contain EXACTLY 1 digit
+
+PsW0D$!# - Password is not accepted
+	Your password does not contain 9 characters.
+	Your password should only contain EXACTLY 3 lower-case letters
+
+12passWORD! - Password is not accepted
+	Your password should only contain EXACTLY 3 upper-case letters
+	Your password should only contain EXACTLY 3 lower-case letters
+	Your password should only contain EXACTLY 1 digit
+
+1234567890 - Password is not accepted
+	Your password should only contain EXACTLY 3 upper-case letters
+	Your password should only contain EXACTLY 3 lower-case letters
+	Your password should only contain EXACTLY 1 digit
+	Your password should contain AT LEAST 1 special character
+
+Gr8Password - Password is not accepted
+	Your password should only contain EXACTLY 3 upper-case letters
+	Your password should only contain EXACTLY 3 lower-case letters
+	Your password should contain AT LEAST 1 special character
