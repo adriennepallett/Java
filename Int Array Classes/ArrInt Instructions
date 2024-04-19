@@ -1,0 +1,79 @@
+assignment 6 instructions
+
+This assignment asks you to write a collection of little functions that all operate on a class of array of 
+integers.
+
+The main function for testing is given below. Use the main from below. Do not make changes to the 
+main except for substituting first name with your first name. 
+
+Implement a class called arrIntFirstName, 
+    1. Class has only one private variable in the class which is an array of ints, called arr. 
+
+    2. Implement a constructor that takes the length as argument and create the array arr using new 
+    of that length, but does not fill it.  (See 2, below, for how to fill it.) 
+
+    3. Implement a second constructor that takes an array of ints as an argument and uses it to 
+    initialize the arr of the class (kind of like a setter). The kind of copying to use here is called a 
+    “shallow copy”. 
+
+    4. Create a function called arrDisplayFirstName () that prints the array to the console in a form that 
+    looks exactly like the literal strings used below for initialization of test arrays in main. The literal 
+    starts with a “{“, then lists the numbers separated by commas but no spaces, and ending with 
+    “}”. The output must even work if the length of the array is 0 (“{}”) or 1 (no commas).  In the 
+    arrInt class, only the displayArrFirstName () method should include calls to sysout.  
+
+    5. Create a function called arrTotFirstName that returns the total of the values in the array. 
+
+    6. Create a function called arrMaxFirstName that returns the maximum value in the array. 
+
+    7. Create a function called arrayMinFirstName that returns the minimum value in the array. 
+
+        a. When looking for min or max, compare each new value to the min or max value that you 
+        have seen so far. Do not initialize that value to an arbitrary extreme (like 0). Observe 
+        that when you check the first value of the array, that value should become the min or 
+        max you have seen so far, since you haven’t seen anything else. Assuming that you are 
+        using a variable called minSeen, the correct solution is to initialize minSeen to the first 
+        value right away, before starting the loop. That way you don’t have to know anything 
+        about the range of possible values (which could be all negative, making 0 a bad choice 
+        for the initial value.) 
+
+        b. If the Array is empty, The arrayMin and arrayMax methods should just return 0. 
+
+    8.  Create a function called arrRangeFirstName that returns the range of the values in the array. In 
+    math, the range is the magnitude of the difference between the minimum and maximum 
+    (inclusive). You compute it by subtracting the minimum from the maximum.  You already have 
+    methods that return the min and max. Use them and do not include any loops in this method.
+
+    9. Create a function called arrAverageFirstName () that returns the average value in the array. Even 
+    though the array contains ints, return the average as a double. Note that you have a method for 
+    the sum, and you can get the length by using the array property of the array itself. So this 
+    method only has to do a divide. Test that you can get a result that includes a fractional part (not 
+    just whole numbers).  
+
+        a. In the average and range functions, use the arrTotFirstName, arrMinFirstName, and 
+        arrMaxFirstName functions to compute those parts, rather than repeating the work of 
+        computing the sum, or looking for min and max.
+
+    10. Create a function called arrClipFirstName that takes an integer value as an argument and 
+    changes any value in the array that is higher than the specified clip value to be the same as the 
+    clip value. This function could also be called “haircut”, in that it takes values that are too high, 
+    and cuts them down to the allowable height. (Think of a scissor going through your hair and 
+    trimming the ones that are too long.) If the array is {2, 4, 6, 7, 3}, after arrClipFirstName (5) it 
+    should be {2, 4, 5, 5, 3}. 
+
+        a. When calling the arrClipFirstName () function from main(), we call the 
+        arrDisplayFirstName() function before and after as shown below to show as shown the 
+        effect of clipping.  Do not print values inside the clip method. 
+
+    11. Create a function called arrfindCountFirstName that takes an integer value as an argument and 
+    returns the count of the integer value in the array. If the array is {2, 4, 4, 4, 3}, 
+    arrfindCountFirstName (4)  should return the count as 3 as there are three 4s in the array. 
+
+
+When you are finished in this case submit the whole zipped package with the whole project instead of 
+the files. Make sure that you use the default package. Please do not use java.util.Array for any of the 
+functions
+
+Here is the main given below. Create an AILNTest Class when LN is your last name and include the 
+following two methods in there. Please do not change the main or the method names included in the 
+testDataBuffer method except for putting your firstname in. 

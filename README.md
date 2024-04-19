@@ -26,3 +26,4 @@ AdrienneKT2ET.java ----------------- Stable ✅
 TempConversion --------------------- Unstable ⛔️ See Projects
 Refactoring.java ------------------- Stable ✅
 Lotto.java ------------------------- Stable ✅
+Int Array Classes ------------------ Stable ✅
