@@ -45,11 +45,7 @@ Int Array Classes ------------------ Stable ✅
 
 Programmer ------------------------- Unstable ⛔️ See Projects
 
-<<<<<<< Updated upstream
-Footwear --------------------------- Stable ✅
-=======
 Footwear --------------------------- Stable ✅
 
 Airline ---------------------------- Unstable ⛔️ See Projects
->>>>>>> Stashed changes
->>>>>>> Stashed changes
+
