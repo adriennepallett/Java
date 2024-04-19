@@ -1,5 +1,10 @@
 # Java
 Welcome to my Java code repository from my college projects! 🎓
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 
 This repository contains a collection of Java projects and assignments that I completed during my time in college. From fundamental concepts to more advanced topics, you'll find a diverse range of Java code snippets and projects here.
 
@@ -40,4 +45,11 @@ Int Array Classes ------------------ Stable ✅
 
 Programmer ------------------------- Unstable ⛔️ See Projects
 
+<<<<<<< Updated upstream
 Footwear --------------------------- Stable ✅
+=======
+Footwear --------------------------- Stable ✅
+
+Airline ---------------------------- Unstable ⛔️ See Projects
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
